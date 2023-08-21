@@ -22,7 +22,8 @@ body{
 }
 
 .display{
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 38px;
     color: white;
     text-align: center;
     padding: 10px;
@@ -42,4 +43,8 @@ button{
     border-radius: 15px;
     font-weight: 600;
     font-size: 14px;
+}
+
+button:active{
+    background-color: lightgrey;
 }
